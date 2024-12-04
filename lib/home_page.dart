@@ -8,26 +8,7 @@ class HomePage extends StatelessWidget {
   final int _counter = 0;
 
   void navigateToDetails(BuildContext context) {
-    // Share Routes
-    // context.namedLocation('details');
-    // context.namedLocation('/details/Details');
-    // context.namedLocation('/details?id=3');
-
-    // Dynamic RoutingConfic
-    // myRoutingConfig.value = RoutingConfig(
-    //   routes: <RouteBase>[
-    //     GoRoute(
-    //       path: '/',
-    //       builder: (_, __) => HomePage(title: 'Hello'),
-    //     ),
-    //     GoRoute(
-    //       path: '/details',
-    //       builder: (_, __) => AnotherDetailsPage(title: 'Another Details'),
-    //     ),
-    //   ],
-    // );
-
-    // GoRouter.of(context).push('/details');
+ /// TODO:::: Navigate to Details Page
 
   }
 
